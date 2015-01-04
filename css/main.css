@@ -94,6 +94,7 @@ a:hover { text-decoration: underline; }
 .sb-logo-image {
     width: 150px;
     height: 150px;
+    transition: all .4s ease;
 }
 
 .sb-description {
