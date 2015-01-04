@@ -1,0 +1,10 @@
+.sb-logo-image {
+    center: == ::window[center];
+    y: == ::window[center-y];
+    height: == 150;
+    width: == height;
+}
+
+.sb-header {
+    right: == ::window[right];
+}
