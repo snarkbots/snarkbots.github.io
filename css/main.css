@@ -49,9 +49,6 @@ a:hover { text-decoration: underline; }
 
 /* Screens bigger than 480px */
 @media only screen and (min-width: 480px) {
-    .sb-footer {
-        position: fixed;
-    }
 
     .sb-logo-image {
         margin: 100px auto 50px auto;
@@ -64,9 +61,6 @@ a:hover { text-decoration: underline; }
 
 /* Screens smaller than 480px */
 @media only screen and (max-width: 480px) {
-    .sb-footer {
-        position: fixed;
-    }
 
     .sb-logo-image {
         margin: 20px auto 10px auto;
@@ -85,10 +79,12 @@ a:hover { text-decoration: underline; }
 }
 
 .sb-footer {
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 .sb-logo-image {
@@ -99,6 +95,7 @@ a:hover { text-decoration: underline; }
 
 .sb-description {
     text-align: center;
+    padding: 0 5px 0 5px;
 }
 
 .sb-email {
