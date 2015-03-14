@@ -59,6 +59,7 @@ a:hover { text-decoration: underline; }
     }
 }
 
+
 /* Screens smaller than 480px */
 @media only screen and (max-width: 480px) {
 
