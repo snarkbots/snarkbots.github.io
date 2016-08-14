@@ -12,6 +12,10 @@ body {
     background-color: #ECF0F1;
 }
 
+h1, h2, h3 {
+    margin: 14px 0px 14px 0px;
+}
+
 h2 { font-size: 32px; color: #34495E; }
 h3 { font-size: 28px; color: #34495E; }
 h4 { font-size: 24px; color: #34495E; }
@@ -24,7 +28,7 @@ a:hover { text-decoration: underline; }
 /* Styling */
 
 .sb-header h1 {
-    position: fixed;
+    position: relative;
     display: block;
     font-family: 'Rationale';
     font-size: 72px;
@@ -32,6 +36,7 @@ a:hover { text-decoration: underline; }
     color: #5BB69A;
     background-color: #ECF0F1;
     padding: 0px;
+    margin: 0px;
 }
 
 .sb-footer {
@@ -101,4 +106,35 @@ a:hover { text-decoration: underline; }
 
 .sb-email {
     text-align: center;
+}
+
+.company_buttons {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
+
+.company_button img {
+    height: 100px;
+    width: 100px;
+}
+
+li.company_button {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 25px 20px 0px 25px;
+    font-size: 16px; color: #34495E;
+    font-weight: bold;
+}
+
+li.company_button, .avatar img {
+    transition: all .2s ease-in-out;
+}
+
+li.company_button:hover, .avatar img:hover {
+    transform: scale(1.2);
 }
